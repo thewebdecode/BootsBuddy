@@ -1,0 +1,312 @@
+.p{
+    padding: $spacer;
+}
+@for $i from 0 to 21 {
+    .p-#{$i}{
+        padding: $i * $spacer !important;
+    }
+}
+.px{
+    padding-left: $spacer;
+    padding-right: $spacer;
+}
+@for $i from 0 to 21 {
+    .px-#{$i}{
+        padding-left: $i * $spacer !important;
+        padding-right: $i * $spacer !important;
+    }
+}
+.py{
+    padding-top: $spacer;
+    padding-bottom: $spacer;
+}
+@for $i from 0 to 21 {
+    .py-#{$i}{
+        padding-top: $i * $spacer !important;
+        padding-bottom: $i * $spacer !important;
+    }
+}
+.pt{
+    padding-top: $spacer;
+}
+@for $i from 0 to 21 {
+    .pt-#{$i}{
+        padding-top: $i * $spacer !important;
+    }
+}
+.pr{
+    padding-right: $spacer;
+}
+@for $i from 0 to 21 {
+    .pr-#{$i}{
+        padding-right: $i * $spacer !important;
+    }
+}
+.pb{
+    padding-bottom: $spacer;
+}
+@for $i from 0 to 21 {
+    .pb-#{$i}{
+        padding-bottom: $i * $spacer !important;
+    }
+}
+.pl{
+    padding-left: $spacer;
+}
+@for $i from 0 to 21 {
+    .pl-#{$i}{
+        padding-left: $i * $spacer !important;
+    }
+}
+
+@include breakpoint('sm'){
+    .p-sm{
+        padding: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .p-sm-#{$i}{
+            padding: $i * $spacer !important;
+        }
+    }
+    .px-sm{
+        padding-left: $spacer;
+        padding-right: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .px-sm-#{$i}{
+            padding-left: $i * $spacer !important;
+            padding-right: $i * $spacer !important;
+        }
+    }
+    .py-sm{
+        padding-top: $spacer;
+        padding-bottom: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .py-sm-#{$i}{
+            padding-top: $i * $spacer !important;
+            padding-bottom: $i * $spacer !important;
+        }
+    }
+    .pt-sm{
+        padding-top: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .pt-sm-#{$i}{
+            padding-top: $i * $spacer !important;
+        }
+    }
+    .pr-sm{
+        padding-right: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .pr-sm-#{$i}{
+            padding-right: $i * $spacer !important;
+        }
+    }
+    .pb-sm{
+        padding-bottom: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .pb-sm-#{$i}{
+            padding-bottom: $i * $spacer !important;
+        }
+    }
+    .pl-sm{
+        padding-left: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .pl-sm-#{$i}{
+            padding-left: $i * $spacer !important;
+        }
+    }
+}
+
+@include breakpoint('md'){
+    .p-md{
+        padding: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .p-md-#{$i}{
+            padding: $i * $spacer !important;
+        }
+    }
+    .px-md{
+        padding-left: $spacer;
+        padding-right: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .px-md-#{$i}{
+            padding-left: $i * $spacer !important;
+            padding-right: $i * $spacer !important;
+        }
+    }
+    .py-md{
+        padding-top: $spacer;
+        padding-bottom: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .py-md-#{$i}{
+            padding-top: $i * $spacer !important;
+            padding-bottom: $i * $spacer !important;
+        }
+    }
+    .pt-md{
+        padding-top: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .pt-md-#{$i}{
+            padding-top: $i * $spacer !important;
+        }
+    }
+    .pr-md{
+        padding-right: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .pr-md-#{$i}{
+            padding-right: $i * $spacer !important;
+        }
+    }
+    .pb-md{
+        padding-bottom: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .pb-md-#{$i}{
+            padding-bottom: $i * $spacer !important;
+        }
+    }
+    .pl-md{
+        padding-left: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .pl-md-#{$i}{
+            padding-left: $i * $spacer !important;
+        }
+    }
+}
+
+@include breakpoint('lg'){
+    .p-lg{
+        padding: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .p-lg-#{$i}{
+            padding: $i * $spacer !important;
+        }
+    }
+    .px-lg{
+        padding-left: $spacer;
+        padding-right: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .px-lg-#{$i}{
+            padding-left: $i * $spacer !important;
+            padding-right: $i * $spacer !important;
+        }
+    }
+    .py-lg{
+        padding-top: $spacer;
+        padding-bottom: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .py-lg-#{$i}{
+            padding-top: $i * $spacer !important;
+            padding-bottom: $i * $spacer !important;
+        }
+    }
+    .pt-lg{
+        padding-top: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .pt-lg-#{$i}{
+            padding-top: $i * $spacer !important;
+        }
+    }
+    .pr-lg{
+        padding-right: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .pr-lg-#{$i}{
+            padding-right: $i * $spacer !important;
+        }
+    }
+    .pb-lg{
+        padding-bottom: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .pb-lg-#{$i}{
+            padding-bottom: $i * $spacer !important;
+        }
+    }
+    .pl-lg{
+        padding-left: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .pl-lg-#{$i}{
+            padding-left: $i * $spacer !important;
+        }
+    }
+}
+
+@include breakpoint('xl'){
+    .p-xl{
+        padding: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .p-xl-#{$i}{
+            padding: $i * $spacer !important;
+        }
+    }
+    .px-xl{
+        padding-left: $spacer;
+        padding-right: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .px-xl-#{$i}{
+            padding-left: $i * $spacer !important;
+            padding-right: $i * $spacer !important;
+        }
+    }
+    .py-xl{
+        padding-top: $spacer;
+        padding-bottom: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .py-xl-#{$i}{
+            padding-top: $i * $spacer !important;
+            padding-bottom: $i * $spacer !important;
+        }
+    }
+    .pt-xl{
+        padding-top: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .pt-xl-#{$i}{
+            padding-top: $i * $spacer !important;
+        }
+    }
+    .pr-xl{
+        padding-right: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .pr-xl-#{$i}{
+            padding-right: $i * $spacer !important;
+        }
+    }
+    .pb-xl{
+        padding-bottom: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .pb-xl-#{$i}{
+            padding-bottom: $i * $spacer !important;
+        }
+    }
+    .pl-xl{
+        padding-left: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .pl-xl-#{$i}{
+            padding-left: $i * $spacer !important;
+        }
+    }
+}

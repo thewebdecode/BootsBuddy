@@ -1,0 +1,25 @@
+/**
+ * BootsBuddy V1.0
+ * Author: Shoaib Khan
+ * Company: WebDecode
+ * URL: https://webdecode.in
+ */
+
+// Helpers
+@import './partials/mixins';
+@import './partials/variables';
+@import './partials/functions';
+
+// Basics
+@import './partials/resets';
+
+// Components
+@import './partials/borders';
+@import './partials/colors';
+@import './partials/rounds';
+@import './partials/transitions';
+@import './partials/typography';
+
+
+// Misc
+@import './partials/misc'

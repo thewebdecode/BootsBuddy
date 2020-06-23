@@ -1,0 +1,53 @@
+.t-bold, .text-bold{
+    font-weight: bold;
+}
+@for $i from 1 to 10 {
+    .t-#{$i*100}, .text-#{$i*100}{
+        font-weight: $i * 100;
+    }
+}
+
+@include breakpoint('sm'){
+    .t-sm-bold, .text-sm-bold{
+        font-weight: bold;
+    }
+    
+    @for $i from 1 to 10 {
+        .t-sm-#{$i*100}, .text-sm-#{$i*100}{
+            font-weight: $i * 100;
+        }
+    }
+}
+@include breakpoint('md'){
+    .t-md-bold, .text-md-bold{
+        font-weight: bold;
+    }
+    
+    @for $i from 1 to 10 {
+        .t-md-#{$i*100}, .text-md-#{$i*100}{
+            font-weight: $i * 100;
+        }
+    }
+}
+@include breakpoint('lg'){
+    .t-lg-bold, .text-lg-bold{
+        font-weight: bold;
+    }
+    
+    @for $i from 1 to 10 {
+        .t-lg-#{$i*100}, .text-lg-#{$i*100}{
+            font-weight: $i * 100;
+        }
+    }
+}
+@include breakpoint('xl'){
+    .t-xl-bold, .text-xl-bold{
+        font-weight: bold;
+    }
+    
+    @for $i from 1 to 10 {
+        .t-xl-#{$i*100}, .text-xl-#{$i*100}{
+            font-weight: $i * 100;
+        }
+    }
+}

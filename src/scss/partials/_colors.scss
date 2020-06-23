@@ -1,0 +1,982 @@
+
+//***********************
+//  Background Colors  ||
+//***********************
+
+//------------
+//  AMBER   ||
+//------------
+
+/* Amber Darken */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .amber,.hover-amber:hover{
+            background-color: $amber !important;
+            color: fgColor($amber);
+        }
+        .amber-#{$i*100},.hover-amber-#{$i*100}:hover{
+            background-color: $amber !important;
+            color: fgColor($amber);
+        }
+    } @else {
+        .amber-#{$i*100},.hover-amber-#{$i*100}:hover{
+            background-color: darken($amber, $i * $color-offset) !important;
+            color: fgColor(darken($amber, $i * $color-offset));
+        }
+    }
+    
+}
+
+/* Amber Lighten */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .amber-light-#{$i*100},.hover-amber-light-#{$i*100}:hover{
+            background-color: $amber !important;
+            color: fgColor($amber);
+        }
+    } @else {
+        .amber-light-#{$i*100},.hover-amber-light-#{$i*100}:hover{
+            background-color: lighten($amber, $i * $color-offset) !important;
+            color: fgColor(lighten($amber, $i * $color-offset));
+        }
+    }
+}
+
+
+//-----------
+//  AQUA   ||
+//-----------
+
+/* Aqua Darken */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .aqua,.hover-aqua:hover{
+            background-color: $aqua !important;
+            color: fgColor($aqua);
+        }
+        .aqua-#{$i*100},.hover-aqua-#{$i*100}:hover{
+            background-color: $aqua !important;
+            color: fgColor($aqua);
+        }
+    } @else {
+        .aqua-#{$i*100},.hover-aqua-#{$i*100}:hover{
+            background-color: darken($aqua, $i * $color-offset) !important;
+            color: fgColor(darken($aqua, $i * $color-offset));
+        }
+    }
+    
+}
+
+/* Aqua Lighten */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .aqua-light-#{$i*100},.hover-aqua-light-#{$i*100}:hover{
+            background-color: $aqua !important;
+            color: fgColor($aqua);
+        }
+    } @else {
+        .aqua-light-#{$i*100},.hover-aqua-light-#{$i*100}:hover{
+            background-color: lighten($aqua, $i * $color-offset) !important;
+            color: fgColor(lighten($aqua, $i * $color-offset));
+        }
+    }
+}
+
+
+//-----------
+//  BLUE   ||
+//-----------
+
+/* Blue Darken */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .blue,.hover-blue:hover{
+            background-color: $blue !important;
+            color: fgColor($blue);
+        }
+        .blue-#{$i*100},.hover-blue-#{$i*100}:hover{
+            background-color: $blue !important;
+            color: fgColor($blue);
+        }
+    } @else {
+        .blue-#{$i*100},.hover-blue-#{$i*100}:hover{
+            background-color: darken($blue, $i * $color-offset) !important;
+            color: fgColor(darken($blue, $i * $color-offset));
+        }
+    }
+    
+}
+
+/* Blue Lighten */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .blue-light-#{$i*100},.hover-blue-light-#{$i*100}:hover{
+            background-color: $blue !important;
+            color: fgColor($blue);
+        }
+    } @else {
+        .blue-light-#{$i*100},.hover-blue-light-#{$i*100}:hover{
+            background-color: lighten($blue, $i * $color-offset) !important;
+            color: fgColor(lighten($blue, $i * $color-offset));
+        }
+    }
+}
+
+
+//------------
+//  BROWN   ||
+//------------
+
+/* Brown Darken */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .brown,.hover-brown:hover{
+            background-color: $brown !important;
+            color: fgColor($brown);
+        }
+        .brown-#{$i*100},.hover-brown-#{$i*100}:hover{
+            background-color: $brown !important;
+            color: fgColor($brown);
+        }
+    } @else {
+        .brown-#{$i*100},.hover-brown-#{$i*100}:hover{
+            background-color: darken($brown, $i * $color-offset) !important;
+            color: fgColor(darken($brown, $i * $color-offset));
+        }
+    }
+    
+}
+
+/* Brown Lighten */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .brown-light-#{$i*100},.hover-brown-light-#{$i*100}:hover{
+            background-color: $brown !important;
+            color: fgColor($brown);
+        }
+    } @else {
+        .brown-light-#{$i*100},.hover-brown-light-#{$i*100}:hover{
+            background-color: lighten($brown, $i * $color-offset) !important;
+            color: fgColor(lighten($brown, $i * $color-offset));
+        }
+    }
+}
+
+
+//-----------
+//  CYAN   ||
+//-----------
+
+/* Cyan Darken */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .cyan,.hover-cyan:hover{
+            background-color: $cyan !important;
+            color: fgColor($cyan);
+        }
+        .cyan-#{$i*100},.hover-cyan-#{$i*100}:hover{
+            background-color: $cyan !important;
+            color: fgColor($cyan);
+        }
+    } @else {
+        .cyan-#{$i*100},.hover-cyan-#{$i*100}:hover{
+            background-color: darken($cyan, $i * $color-offset) !important;
+            color: fgColor(darken($cyan, $i * $color-offset));
+        }
+    }
+    
+}
+
+/* Cyan Lighten */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .cyan-light-#{$i*100},.hover-cyan-light-#{$i*100}:hover{
+            background-color: $cyan !important;
+            color: fgColor($cyan);
+        }
+    } @else {
+        .cyan-light-#{$i*100},.hover-cyan-light-#{$i*100}:hover{
+            background-color: lighten($cyan, $i * $color-offset) !important;
+            color: fgColor(lighten($cyan, $i * $color-offset));
+        }
+    }
+}
+
+
+//----------------
+//  BLUE-GREY   ||
+//----------------
+
+/* Blue-Grey Darken */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .blue-grey,.hover-blue-grey:hover{
+            background-color: $blue-grey !important;
+            color: fgColor($blue-grey);
+        }
+        .blue-grey-#{$i*100},.hover-blue-grey-#{$i*100}:hover{
+            background-color: $blue-grey !important;
+            color: fgColor($blue-grey);
+        }
+    } @else {
+        .blue-grey-#{$i*100},.hover-blue-grey-#{$i*100}:hover{
+            background-color: darken($blue-grey, $i * $color-offset) !important;
+            color: fgColor(darken($blue-grey, $i * $color-offset));
+        }
+    }
+    
+}
+
+/* Blue-Grey Lighten */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .blue-grey-light-#{$i*100},.hover-blue-grey-light-#{$i*100}:hover{
+            background-color: $blue-grey !important;
+            color: fgColor($blue-grey);
+        }
+    } @else {
+        .blue-grey-light-#{$i*100},.hover-blue-grey-light-#{$i*100}:hover{
+            background-color: lighten($blue-grey, $i * $color-offset) !important;
+            color: fgColor(lighten($blue-grey, $i * $color-offset));
+        }
+    }
+}
+
+
+//------------
+//  GREEN   ||
+//------------
+
+/* Green Darken */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .green,.hover-green:hover{
+            background-color: $green !important;
+            color: fgColor($green);
+        }
+        .green-#{$i*100},.hover-green-#{$i*100}:hover{
+            background-color: $green !important;
+            color: fgColor($green);
+        }
+    } @else {
+        .green-#{$i*100},.hover-green-#{$i*100}:hover{
+            background-color: darken($green, $i * $color-offset) !important;
+            color: fgColor(darken($green, $i * $color-offset));
+        }
+    }
+    
+}
+
+/* Green Lighten */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .green-light-#{$i*100},.hover-green-light-#{$i*100}:hover{
+            background-color: $green !important;
+            color: fgColor($green);
+        }
+    } @else {
+        .green-light-#{$i*100},.hover-green-light-#{$i*100}:hover{
+            background-color: lighten($green, $i * $color-offset) !important;
+            color: fgColor(lighten($green, $i * $color-offset));
+        }
+    }
+}
+
+
+
+//-------------
+//  INDIGO   ||
+//-------------
+
+/* Indigo Darken */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .indigo,.hover-indigo:hover{
+            background-color: $indigo !important;
+            color: fgColor($indigo);
+        }
+        .indigo-#{$i*100},.hover-indigo-#{$i*100}:hover{
+            background-color: $indigo !important;
+            color: fgColor($indigo);
+        }
+    } @else {
+        .indigo-#{$i*100},.hover-indigo-#{$i*100}:hover{
+            background-color: darken($indigo, $i * $color-offset) !important;
+            color: fgColor(darken($indigo, $i * $color-offset));
+        }
+    }
+    
+}
+
+/* Indigo Lighten */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .indigo-light-#{$i*100},.hover-indigo-light-#{$i*100}:hover{
+            background-color: $indigo !important;
+            color: fgColor($indigo);
+        }
+    } @else {
+        .indigo-light-#{$i*100},.hover-indigo-light-#{$i*100}:hover{
+            background-color: lighten($indigo, $i * $color-offset) !important;
+            color: fgColor(lighten($indigo, $i * $color-offset));
+        }
+    }
+}
+
+
+
+//-------------
+//  KHAKI   ||
+//-------------
+
+/* Khaki Darken */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .khaki,.hover-khaki:hover{
+            background-color: $khaki !important;
+            color: fgColor($khaki);
+        }
+        .khaki-#{$i*100},.hover-khaki-#{$i*100}:hover{
+            background-color: $khaki !important;
+            color: fgColor($khaki);
+        }
+    } @else {
+        .khaki-#{$i*100},.hover-khaki-#{$i*100}:hover{
+            background-color: darken($khaki, $i * $color-offset) !important;
+            color: fgColor(darken($khaki, $i * $color-offset));
+        }
+    }
+    
+}
+
+/* Khaki Lighten */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .khaki-light-#{$i*100},.hover-khaki-light-#{$i*100}:hover{
+            background-color: $khaki !important;
+            color: fgColor($khaki);
+        }
+    } @else {
+        .khaki-light-#{$i*100},.hover-khaki-light-#{$i*100}:hover{
+            background-color: lighten($khaki, $i * $color-offset) !important;
+            color: fgColor(lighten($khaki, $i * $color-offset));
+        }
+    }
+}
+
+
+
+//-------------
+//  LIME   ||
+//-------------
+
+/* Lime Darken */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .lime,.hover-lime:hover{
+            background-color: $lime !important;
+            color: fgColor($lime);
+        }
+        .lime-#{$i*100},.hover-lime-#{$i*100}:hover{
+            background-color: $lime !important;
+            color: fgColor($lime);
+        }
+    } @else {
+        .lime-#{$i*100},.hover-lime-#{$i*100}:hover{
+            background-color: darken($lime, $i * $color-offset) !important;
+            color: fgColor(darken($lime, $i * $color-offset));
+        }
+    }
+    
+}
+
+/* Lime Lighten */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .lime-light-#{$i*100},.hover-lime-light-#{$i*100}:hover{
+            background-color: $lime !important;
+            color: fgColor($lime);
+        }
+    } @else {
+        .lime-light-#{$i*100},.hover-lime-light-#{$i*100}:hover{
+            background-color: lighten($lime, $i * $color-offset) !important;
+            color: fgColor(lighten($lime, $i * $color-offset));
+        }
+    }
+}
+
+
+//-------------
+//  ORANGE   ||
+//-------------
+
+/* Orange Darken */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .orange,.hover-orange:hover{
+            background-color: $orange !important;
+            color: fgColor($orange);
+        }
+        .orange-#{$i*100},.hover-orange-#{$i*100}:hover{
+            background-color: $orange !important;
+            color: fgColor($orange);
+        }
+    } @else {
+        .orange-#{$i*100},.hover-orange-#{$i*100}:hover{
+            background-color: darken($orange, $i * $color-offset) !important;
+            color: fgColor(darken($orange, $i * $color-offset));
+        }
+    }
+    
+}
+
+/* Orange Lighten */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .orange-light-#{$i*100},.hover-orange-light-#{$i*100}:hover{
+            background-color: $orange !important;
+            color: fgColor($orange);
+        }
+    } @else {
+        .orange-light-#{$i*100},.hover-orange-light-#{$i*100}:hover{
+            background-color: lighten($orange, $i * $color-offset) !important;
+            color: fgColor(lighten($orange, $i * $color-offset));
+        }
+    }
+}
+
+
+
+//-------------
+//  PINK   ||
+//-------------
+
+/* Pink Darken */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .pink,.hover-pink:hover{
+            background-color: $pink !important;
+            color: fgColor($pink);
+        }
+        .pink-#{$i*100},.hover-pink-#{$i*100}:hover{
+            background-color: $pink !important;
+            color: fgColor($pink);
+        }
+    } @else {
+        .pink-#{$i*100},.hover-pink-#{$i*100}:hover{
+            background-color: darken($pink, $i * $color-offset) !important;
+            color: fgColor(darken($pink, $i * $color-offset));
+        }
+    }
+    
+}
+
+/* Pink Lighten */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .pink-light-#{$i*100},.hover-pink-light-#{$i*100}:hover{
+            background-color: $pink !important;
+            color: fgColor($pink);
+        }
+    } @else {
+        .pink-light-#{$i*100},.hover-pink-light-#{$i*100}:hover{
+            background-color: lighten($pink, $i * $color-offset) !important;
+            color: fgColor(lighten($pink, $i * $color-offset));
+        }
+    }
+}
+
+
+
+//-------------
+//  PURPLE   ||
+//-------------
+
+/* Purple Darken */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .purple,.hover-purple:hover{
+            background-color: $purple !important;
+            color: fgColor($purple);
+        }
+        .purple-#{$i*100},.hover-purple-#{$i*100}:hover{
+            background-color: $purple !important;
+            color: fgColor($purple);
+        }
+    } @else {
+        .purple-#{$i*100},.hover-purple-#{$i*100}:hover{
+            background-color: darken($purple, $i * $color-offset) !important;
+            color: fgColor(darken($purple, $i * $color-offset));
+        }
+    }
+    
+}
+
+/* Purple Lighten */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .purple-light-#{$i*100},.hover-purple-light-#{$i*100}:hover{
+            background-color: $purple !important;
+            color: fgColor($purple);
+        }
+    } @else {
+        .purple-light-#{$i*100},.hover-purple-light-#{$i*100}:hover{
+            background-color: lighten($purple, $i * $color-offset) !important;
+            color: fgColor(lighten($purple, $i * $color-offset));
+        }
+    }
+}
+
+
+
+//-------------
+//  RED   ||
+//-------------
+
+/* Red Darken */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .red,.hover-red:hover{
+            background-color: $red !important;
+            color: fgColor($red);
+        }
+        .red-#{$i*100},.hover-red-#{$i*100}:hover{
+            background-color: $red !important;
+            color: fgColor($red);
+        }
+    } @else {
+        .red-#{$i*100},.hover-red-#{$i*100}:hover{
+            background-color: darken($red, $i * $color-offset) !important;
+            color: fgColor(darken($red, $i * $color-offset));
+        }
+    }
+    
+}
+
+/* Red Lighten */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .red-light-#{$i*100},.hover-red-light-#{$i*100}:hover{
+            background-color: $red !important;
+            color: fgColor($red);
+        }
+    } @else {
+        .red-light-#{$i*100},.hover-red-light-#{$i*100}:hover{
+            background-color: lighten($red, $i * $color-offset) !important;
+            color: fgColor(lighten($red, $i * $color-offset));
+        }
+    }
+}
+
+
+
+//-------------
+//  TEAL   ||
+//-------------
+
+/* Teal Darken */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .teal,.hover-teal:hover{
+            background-color: $teal !important;
+            color: fgColor($teal);
+        }
+        .teal-#{$i*100},.hover-teal-#{$i*100}:hover{
+            background-color: $teal !important;
+            color: fgColor($teal);
+        }
+    } @else {
+        .teal-#{$i*100},.hover-teal-#{$i*100}:hover{
+            background-color: darken($teal, $i * $color-offset) !important;
+            color: fgColor(darken($teal, $i * $color-offset));
+        }
+    }
+    
+}
+
+/* Teal Lighten */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .teal-light-#{$i*100},.hover-teal-light-#{$i*100}:hover{
+            background-color: $teal !important;
+            color: fgColor($teal);
+        }
+    } @else {
+        .teal-light-#{$i*100},.hover-teal-light-#{$i*100}:hover{
+            background-color: lighten($teal, $i * $color-offset) !important;
+            color: fgColor(lighten($teal, $i * $color-offset));
+        }
+    }
+}
+
+
+
+//-------------
+//  YELLOW   ||
+//-------------
+
+/* Yellow Darken */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .yellow,.hover-yellow:hover{
+            background-color: $yellow !important;
+            color: fgColor($yellow);
+        }
+        .yellow-#{$i*100},.hover-yellow-#{$i*100}:hover{
+            background-color: $yellow !important;
+            color: fgColor($yellow);
+        }
+    } @else {
+        .yellow-#{$i*100},.hover-yellow-#{$i*100}:hover{
+            background-color: darken($yellow, $i * $color-offset) !important;
+            color: fgColor(darken($yellow, $i * $color-offset));
+        }
+    }
+    
+}
+
+/* Yellow Lighten */
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .yellow-light-#{$i*100},.hover-yellow-light-#{$i*100}:hover{
+            background-color: $yellow !important;
+            color: fgColor($yellow);
+        }
+    } @else {
+        .yellow-light-#{$i*100},.hover-yellow-light-#{$i*100}:hover{
+            background-color: lighten($yellow, $i * $color-offset) !important;
+            color: fgColor(lighten($yellow, $i * $color-offset));
+        }
+    }
+}
+
+//------------
+//   DARK   ||
+//------------
+.dark,.hover-dark:hover{
+    background-color: $dark !important;
+    color: fgColor($dark);
+} 
+//------------
+//   BLACK   ||
+//------------
+.black,.hover-black:hover{
+    background-color: $black !important;
+    color: fgColor($black);
+} 
+
+//-------------
+//   WHITE   ||
+//-------------
+.white,.hover-white:hover,.light,.hover-light:hover{
+    background-color: $white !important;
+    color: fgColor($white);
+}
+
+//------------
+//   GREY   ||
+//------------
+.grey,.hover-grey:hover,.gray,.hover-gray:hover{
+    background-color: darken($white, $amount: 40%) !important;
+    color: fgColor(darken($white, $amount: 40%));
+}
+@for $i from 1 to $color-shades {
+    .grey-#{$i*100},.hover-grey-#{$i*100}:hover, .gray-#{$i*100}, .hover-gray-#{$i*100}:hover{
+        background-color: darken(darken($white, $amount: 40%), $i * $color-offset) !important;
+        color: fgColor(darken(darken($white, $amount: 40%), $i * $color-offset));
+    }
+}
+//----------------
+//   DAK-GREY   ||
+//----------------
+.dark-grey,.hover-dark-grey:hover,.dark-gray,.hover-dark-gray:hover{
+    background-color: darken(darken($white, $amount: 40%), 9 * $color-offset) !important;
+    color: fgColor(darken(darken($white, $amount: 40%), 9 * $color-offset));
+}
+
+
+//****************
+//  TEXT COLOR  ||
+//****************
+
+// Amber
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .t-amber,.hover-t-amber:hover, .text-amber,.hover-text-amber:hover{
+            color: $amber !important;
+        }
+        .t-amber-#{$i*100},.hover-t-amber-#{$i*100}:hover, .text-amber-#{$i*100},.hover-text-amber-#{$i*100}:hover{
+            color: $amber !important;
+        }
+    } @else {
+        .t-amber-#{$i*100},.hover-t-amber-#{$i*100}:hover, .text-amber-#{$i*100},.hover-text-amber-#{$i*100}:hover{
+            color: darken($amber, $i * $color-offset) !important;
+        }
+    } 
+}
+
+
+// Aqua
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .t-aqua,.hover-t-aqua:hover, .text-aqua,.hover-text-aqua:hover{
+            color: $aqua !important;
+        }
+        .t-aqua-#{$i*100},.hover-t-aqua-#{$i*100}:hover, .text-aqua-#{$i*100},.hover-text-aqua-#{$i*100}:hover{
+            color: $aqua !important;
+        }
+    } @else {
+        .t-aqua-#{$i*100},.hover-t-aqua-#{$i*100}:hover, .text-aqua-#{$i*100},.hover-text-aqua-#{$i*100}:hover{
+            color: darken($aqua, $i * $color-offset) !important;
+        }
+    }
+}
+
+
+
+// Blue
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .t-blue,.hover-t-blue:hover, .text-blue,.hover-text-blue:hover{
+            color: $blue !important;
+        }
+        .t-blue-#{$i*100},.hover-t-blue-#{$i*100}:hover, .text-blue-#{$i*100},.hover-text-blue-#{$i*100}:hover{
+            color: $blue !important;
+        }
+    } @else {
+        .t-blue-#{$i*100},.hover-t-blue-#{$i*100}:hover, .text-blue-#{$i*100},.hover-text-blue-#{$i*100}:hover{
+            color: darken($blue, $i * $color-offset) !important;
+        }
+    }
+}
+
+
+// Brown
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .t-brown,.hover-t-brown:hover, .text-brown,.hover-text-brown:hover{
+            color: $brown !important;
+        }
+        .t-brown-#{$i*100},.hover-t-brown-#{$i*100}:hover, .text-brown-#{$i*100},.hover-text-brown-#{$i*100}:hover{
+            color: $brown !important;
+        }
+    } @else {
+        .t-brown-#{$i*100},.hover-t-brown-#{$i*100}:hover, .text-brown-#{$i*100},.hover-text-brown-#{$i*100}:hover{
+            color: darken($brown, $i * $color-offset) !important;
+        }
+    }
+}
+
+
+// Cyan
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .t-cyan,.hover-t-cyan:hover, .text-cyan,.hover-text-cyan:hover{
+            color: $cyan !important;
+        }
+        .t-cyan-#{$i*100},.hover-t-cyan-#{$i*100}:hover, .text-cyan-#{$i*100},.hover-text-cyan-#{$i*100}:hover{
+            color: $cyan !important;
+        }
+    } @else {
+        .t-cyan-#{$i*100},.hover-t-cyan-#{$i*100}:hover, .text-cyan-#{$i*100},.hover-text-cyan-#{$i*100}:hover{
+            color: darken($amber, $i * $color-offset) !important;
+        }
+    }
+}
+
+
+// Blue-Grey
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .t-blue-grey,.hover-t-blue-grey:hover, .text-blue-grey,.hover-text-blue-grey:hover{
+            color: $blue-grey !important;
+        }
+        .t-blue-grey-#{$i*100},.hover-t-blue-grey-#{$i*100}:hover, .text-blue-grey-#{$i*100},.hover-text-blue-grey-#{$i*100}:hover{
+            color: $blue-grey !important;
+        }
+    } @else {
+        .t-blue-grey-#{$i*100},.hover-t-blue-grey-#{$i*100}:hover, .text-blue-grey-#{$i*100},.hover-text-blue-grey-#{$i*100}:hover{
+            color: darken($amber, $i * $color-offset) !important;
+        }
+    }
+}
+
+
+// Green
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .t-green,.hover-t-green:hover, .text-green,.hover-text-green:hover{
+            color: $green !important;
+        }
+        .t-green-#{$i*100},.hover-t-green-#{$i*100}:hover, .text-green-#{$i*100},.hover-text-green-#{$i*100}:hover{
+            color: $green !important;
+        }
+    } @else {
+        .t-green-#{$i*100},.hover-t-green-#{$i*100}:hover, .text-green-#{$i*100},.hover-text-green-#{$i*100}:hover{
+            color: darken($green, $i * $color-offset) !important;
+        }
+    }
+}
+
+
+// Indigo
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .t-indigo,.hover-t-indigo:hover, .text-indigo,.hover-text-indigo:hover{
+            color: $indigo !important;
+        }
+        .t-indigo-#{$i*100},.hover-t-indigo-#{$i*100}:hover, .text-indigo-#{$i*100},.hover-text-indigo-#{$i*100}:hover{
+            color: $indigo !important;
+        }
+    } @else {
+        .t-indigo-#{$i*100},.hover-t-indigo-#{$i*100}:hover, .text-indigo-#{$i*100},.hover-text-indigo-#{$i*100}:hover{
+            color: darken($indigo, $i * $color-offset) !important;
+        }
+    }
+}
+
+
+// Khaki
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .t-khaki,.hover-t-khaki:hover, .text-khaki,.hover-text-khaki:hover{
+            color: $khaki !important;
+        }
+        .t-khaki-#{$i*100},.hover-t-khaki-#{$i*100}:hover, .text-khaki-#{$i*100},.hover-text-khaki-#{$i*100}:hover{
+            color: $khaki !important;
+        }
+    } @else {
+        .t-khaki-#{$i*100},.hover-t-khaki-#{$i*100}:hover, .text-khaki-#{$i*100},.hover-text-khaki-#{$i*100}:hover{
+            color: darken($khaki, $i * $color-offset) !important;
+        }
+    }
+}
+
+// Lime
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .t-lime,.hover-t-lime:hover, .text-lime,.hover-text-lime:hover{
+            color: $lime !important;
+        }
+        .t-lime-#{$i*100},.hover-t-lime-#{$i*100}:hover, .text-lime-#{$i*100},.hover-text-lime-#{$i*100}:hover{
+            color: $lime !important;
+        }
+    } @else {
+        .t-lime-#{$i*100},.hover-t-lime-#{$i*100}:hover, .text-lime-#{$i*100},.hover-text-lime-#{$i*100}:hover{
+            color: darken($lime, $i * $color-offset) !important;
+        }
+    }
+}
+
+// Orange
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .t-orange,.hover-t-orange:hover, .text-orange,.hover-text-orange:hover{
+            color: $orange !important;
+        }
+        .t-orange-#{$i*100},.hover-t-orange-#{$i*100}:hover, .text-orange-#{$i*100},.hover-text-orange-#{$i*100}:hover{
+            color: $orange !important;
+        }
+    } @else {
+        .t-orange-#{$i*100},.hover-t-orange-#{$i*100}:hover, .text-orange-#{$i*100},.hover-text-orange-#{$i*100}:hover{
+            color: darken($orange, $i * $color-offset) !important;
+        }
+    }
+}
+
+// Pink
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .t-pink,.hover-t-pink:hover, .text-pink,.hover-text-pink:hover{
+            color: $pink !important;
+        }
+        .t-pink-#{$i*100},.hover-t-pink-#{$i*100}:hover, .text-pink-#{$i*100},.hover-text-pink-#{$i*100}:hover{
+            color: $pink !important;
+        }
+    } @else {
+        .t-pink-#{$i*100},.hover-t-pink-#{$i*100}:hover, .text-pink-#{$i*100},.hover-text-pink-#{$i*100}:hover{
+            color: darken($pink, $i * $color-offset) !important;
+        }
+    }
+}
+
+// Purple
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .t-purple,.hover-t-purple:hover, .text-purple,.hover-text-purple:hover{
+            color: $purple !important;
+        }
+        .t-purple-#{$i*100},.hover-t-purple-#{$i*100}:hover, .text-purple-#{$i*100},.hover-text-purple-#{$i*100}:hover{
+            color: $purple !important;
+        }
+    } @else {
+        .t-purple-#{$i*100},.hover-t-purple-#{$i*100}:hover, .text-purple-#{$i*100},.hover-text-purple-#{$i*100}:hover{
+            color: darken($purple, $i * $color-offset) !important;
+        }
+    }
+}
+
+// Red
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .t-red,.hover-t-red:hover, .text-red,.hover-text-red:hover{
+            color: $red !important;
+        }
+        .t-red-#{$i*100},.hover-t-red-#{$i*100}:hover, .text-red-#{$i*100},.hover-text-red-#{$i*100}:hover{
+            color: $red !important;
+        }
+    } @else {
+        .t-red-#{$i*100},.hover-t-red-#{$i*100}:hover, .text-red-#{$i*100},.hover-text-red-#{$i*100}:hover{
+            color: darken($red, $i * $color-offset) !important;
+        }
+    }
+}
+
+// Teal
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .t-teal,.hover-t-teal:hover, .text-teal,.hover-text-teal:hover{
+            color: $teal !important;
+        }
+        .t-teal-#{$i*100},.hover-t-teal-#{$i*100}:hover, .text-teal-#{$i*100},.hover-text-teal-#{$i*100}:hover{
+            color: $teal !important;
+        }
+    } @else {
+        .t-teal-#{$i*100},.hover-t-teal-#{$i*100}:hover, .text-teal-#{$i*100},.hover-text-teal-#{$i*100}:hover{
+            color: darken($teal, $i * $color-offset) !important;
+        }
+    }
+}
+
+// Yellow
+@for $i from 1 to $color-shades {
+    @if ($i == 1){
+        .t-yellow,.hover-t-yellow:hover, .text-yellow,.hover-text-yellow:hover{
+            color: $yellow !important;
+        }
+        .t-yellow-#{$i*100},.hover-t-yellow-#{$i*100}:hover, .text-yellow-#{$i*100},.hover-text-yellow-#{$i*100}:hover{
+            color: $yellow !important;
+        }
+    } @else {
+        .t-yellow-#{$i*100},.hover-t-yellow-#{$i*100}:hover, .text-yellow-#{$i*100},.hover-text-yellow-#{$i*100}:hover{
+            color: darken($yellow, $i * $color-offset) !important;
+        }
+    }
+}
+
+// Dark / Black
+.t-dark,.hover-t-dark:hover, .text-dark,.hover-text-dark:hover,
+.t-black,.hover-t-black:hover, .text-black,.hover-text-black:hover
+{
+    color: $dark !important;
+}
+
+
+// White
+.t-white,.hover-t-white:hover, .text-white,.hover-text-white:hover{
+    color: $white !important;
+}
+// Light
+.t-light,.hover-t-light:hover, .text-light,.hover-text-light:hover{
+    color: darken($color: $white, $amount: 15%) !important;
+}

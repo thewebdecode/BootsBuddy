@@ -1,0 +1,275 @@
+//----------------
+// Border Reset ||
+//----------------
+[class^=" b-"],
+[class^=" by-"],
+[class^=" bx-"],
+[class^=" bt-"],
+[class^=" br-"],
+[class^=" bb-"],
+[class^=" bl-"]
+{
+    border-style: solid;
+    border-color: $grey;
+}
+
+.b-dotted {
+    border-style: dotted !important
+}
+
+.b-solid {
+    border-style: solid !important
+}
+
+.b-dashed {
+    border-style: dashed !important
+}
+
+.b {
+    border-width: $border-width;
+}
+@for $i from 1 to $border-count {
+    .b-#{$i},.hover-b-#{$i}:hover{
+        border-width: $i * $border-width !important;
+    }
+}
+
+.bt{
+    border-top-width: 2px;
+}
+@for $i from 1 to $border-count {
+    .bt-#{$i},.hover-bt-#{$i}:hover{
+        border-top-width: $i * $border-width !important;
+    }
+}
+
+.br{
+    border-right-width: 2px;
+}
+@for $i from 1 to $border-count {
+    .br-#{$i},.hover-br-#{$i}:hover{
+        border-right-width: $i * $border-width !important;
+    }
+}
+
+
+.bb{
+    border-bottom-width: 2px;
+}
+@for $i from 1 to $border-count {
+    .bb-#{$i},.hover-bb-#{$i}:hover{
+        border-bottom-width: $i * $border-width !important;
+    }
+}
+
+.bl{
+    border-left-width: 2px;
+}
+@for $i from 1 to $border-count {
+    .bl-#{$i},.hover-bl-#{$i}:hover{
+        border-left-width: $i * $border-width !important;
+    }
+}
+
+
+
+//-----------------
+// Border colors ||
+//-----------------
+
+/**
+ * amber
+ */
+.b-amber,.hover-b-amber:hover{
+    border-color: $amber !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-amber-#{$i*100},.hover-b-amber-#{$i*100}:hover{
+        border-color: lighten($amber, $i * $border-color-offset) !important;
+    }
+}
+
+/**
+ * aqua
+ */
+.b-aqua,.hover-b-aqua:hover{
+    border-color: $aqua !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-aqua-#{$i*100},.hover-b-aqua-#{$i*100}:hover{
+        border-color: lighten($aqua, $i * $border-color-offset) !important;
+    }
+}
+/**
+ * blue
+ */
+.b-blue,.hover-b-blue:hover{
+    border-color: $blue !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-blue-#{$i*100},.hover-b-blue-#{$i*100}:hover{
+        border-color: lighten($blue, $i * $border-color-offset) !important;
+    }
+}
+/**
+ * brown
+ */
+.b-brown,.hover-b-brown:hover{
+    border-color: $brown !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-brown-#{$i*100},.hover-b-brown-#{$i*100}:hover{
+        border-color: lighten($brown, $i * $border-color-offset) !important;
+    }
+}
+
+/**
+ * cyan
+ */
+.b-cyan,.hover-b-cyan:hover{
+    border-color: $cyan !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-cyan-#{$i*100},.hover-b-cyan-#{$i*100}:hover{
+        border-color: lighten($cyan, $i * $border-color-offset) !important;
+    }
+}
+
+/**
+ * blue-grey
+ */
+.b-blue-grey,.hover-b-blue-grey:hover{
+    border-color: $blue-grey !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-blue-grey-#{$i*100},.hover-b-blue-grey-#{$i*100}:hover{
+        border-color: lighten($blue-grey, $i * $border-color-offset) !important;
+    }
+}
+/**
+ * green
+ */
+.b-green,.hover-b-green:hover{
+    border-color: $green !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-green-#{$i*100},.hover-b-green-#{$i*100}:hover{
+        border-color: lighten($green, $i * $border-color-offset) !important;
+    }
+}
+/**
+ * indigo
+ */
+.b-indigo,.hover-b-indigo:hover{
+    border-color: $indigo !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-indigo-#{$i*100},.hover-b-indigo-#{$i*100}:hover{
+        border-color: lighten($indigo, $i * $border-color-offset) !important;
+    }
+}
+/**
+ * khaki
+ */
+.b-khaki,.hover-b-khaki:hover{
+    border-color: $khaki !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-khaki-#{$i*100},.hover-b-khaki-#{$i*100}:hover{
+        border-color: lighten($khaki, $i * $border-color-offset) !important;
+    }
+}
+/**
+ * lime
+ */
+.b-lime,.hover-b-lime:hover{
+    border-color: $lime !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-lime-#{$i*100},.hover-b-lime-#{$i*100}:hover{
+        border-color: lighten($lime, $i * $border-color-offset) !important;
+    }
+}
+/**
+ * orange
+ */
+.b-orange,.hover-b-orange:hover{
+    border-color: $orange !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-orange-#{$i*100},.hover-b-orange-#{$i*100}:hover{
+        border-color: lighten($orange, $i * $border-color-offset) !important;
+    }
+}
+/**
+ * pink
+ */
+.b-pink,.hover-b-pink:hover{
+    border-color: $pink !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-pink-#{$i*100},.hover-b-pink-#{$i*100}:hover{
+        border-color: lighten($pink, $i * $border-color-offset) !important;
+    }
+}
+/**
+ * purple
+ */
+.b-purple,.hover-b-purple:hover{
+    border-color: $purple !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-purple-#{$i*100},.hover-b-purple-#{$i*100}:hover{
+        border-color: lighten($purple, $i * $border-color-offset) !important;
+    }
+}
+/**
+ * red
+ */
+.b-red,.hover-b-red:hover{
+    border-color: $red !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-red-#{$i*100},.hover-b-red-#{$i*100}:hover{
+        border-color: lighten($red, $i * $border-color-offset) !important;
+    }
+}
+/**
+ * teal
+ */
+.b-teal,.hover-b-teal:hover{
+    border-color: $teal !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-teal-#{$i*100},.hover-b-teal-#{$i*100}:hover{
+        border-color: lighten($teal, $i * $border-color-offset) !important;
+    }
+}
+/**
+ * yellow
+ */
+.b-yellow,.hover-b-yellow:hover{
+    border-color: $yellow !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-yellow-#{$i*100},.hover-b-yellow-#{$i*100}:hover{
+        border-color: lighten($yellow, $i * $border-color-offset) !important;
+    }
+}
+/**
+ * dark
+ */
+.b-dark,.hover-b-dark:hover{
+    border-color: $dark !important;
+}
+@for $i from 1 to $border-color-shades {
+    .b-dark-#{$i*100},.hover-b-dark-#{$i*100}:hover{
+        border-color: lighten($dark, $i * $border-color-offset) !important;
+    }
+}
+/**
+ * white
+ */
+.b-white,.hover-b-white:hover{
+    border-color: $white !important;
+}

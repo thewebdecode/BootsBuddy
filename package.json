@@ -1,0 +1,26 @@
+{
+  "name": "bootsbuddy",
+  "version": "1.0",
+  "description": "A simple yet powerfull frontend framework for the bootstrap users to give them some more features that bootstrap does not have. It is just a friennd for the bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch src/scss/bootsbuddy.scss dist/css/bootsbuddy.css",
+    "push": "git add . && git commit && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0000https://github.com/web-decode/BootsBuddy.git"
+  },
+  "keywords": [
+    "Bootsbuddy",
+    "bootstrap",
+    "css",
+    "framework"
+  ],
+  "author": "Shoaib Khan (Webdecode)",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1"
+  }
+}

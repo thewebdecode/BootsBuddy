@@ -1,0 +1,313 @@
+.m{
+    margin: $spacer;
+}
+@for $i from 0 to 21 {
+    .m-#{$i}{
+        margin: $i * $spacer !important;
+    }
+}
+.my{
+    margin-top: $spacer;
+    margin-bottom: $spacer;
+}
+@for $i from 0 to 21 {
+    .my-#{$i}{
+        margin-top: $i * $spacer !important;
+        margin-bottom: $i * $spacer !important;
+    }
+}
+.mx{
+    margin-left: $spacer;
+    margin-right: $spacer;
+}
+@for $i from 0 to 21 {
+    .mx-#{$i}{
+        margin-left: $i * $spacer !important;
+        margin-right: $i * $spacer !important;
+    }
+}
+
+.mt{
+    margin-top: $spacer;
+}
+@for $i from 0 to 21 {
+    .mt-#{$i}{
+        margin-top: $i * $spacer !important;
+    }
+}
+.mr{
+    margin-right: $spacer;
+}
+@for $i from 0 to 21 {
+    .mr-#{$i}{
+        margin-right: $i * $spacer !important;
+    }
+}
+.mb{
+    margin-bottom: $spacer;
+}
+@for $i from 0 to 21 {
+    .mb-#{$i}{
+        margin-bottom: $i * $spacer !important;
+    }
+}
+.ml{
+    margin-left: $spacer;
+}
+@for $i from 0 to 21 {
+    .ml-#{$i}{
+        margin-left: $i * $spacer !important;
+    }
+}
+
+@include breakpoint('sm'){
+    .m-sm{
+        margin: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .m-sm-#{$i}{
+            margin: $i * $spacer !important;
+        }
+    }
+    .my-sm{
+        margin-top: $spacer;
+        margin-bottom: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .my-sm-#{$i}{
+            margin-top: $i * $spacer !important;
+            margin-bottom: $i * $spacer !important;
+        }
+    }
+    .mx-sm{
+        margin-left: $spacer;
+        margin-right: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .mx-sm-#{$i}{
+            margin-left: $i * $spacer !important;
+            margin-right: $i * $spacer !important;
+        }
+    }
+    .mt-sm{
+        margin-top: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .mt-sm-#{$i}{
+            margin-top: $i * $spacer !important;
+        }
+    }
+    .mr-sm{
+        margin-right: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .mr-sm-#{$i}{
+            margin-right: $i * $spacer !important;
+        }
+    }
+    .mb-sm{
+        margin-bottom: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .mb-sm-#{$i}{
+            margin-bottom: $i * $spacer !important;
+        }
+    }
+    .ml-sm{
+        margin-left: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .ml-sm-#{$i}{
+            margin-left: $i * $spacer !important;
+        }
+    }
+}
+
+@include breakpoint('md'){
+    .m-md{
+        margin: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .m-md-#{$i}{
+            margin: $i * $spacer !important;
+        }
+    }
+    .my-md{
+        margin-top: $spacer;
+        margin-bottom: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .my-md-#{$i}{
+            margin-top: $i * $spacer !important;
+            margin-bottom: $i * $spacer !important;
+        }
+    }
+    .mx-md{
+        margin-left: $spacer;
+        margin-right: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .mx-md-#{$i}{
+            margin-left: $i * $spacer !important;
+            margin-right: $i * $spacer !important;
+        }
+    }
+    .mt-md{
+        margin-top: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .mt-md-#{$i}{
+            margin-top: $i * $spacer !important;
+        }
+    }
+    .mr-md{
+        margin-right: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .mr-md-#{$i}{
+            margin-right: $i * $spacer !important;
+        }
+    }
+    .mb-md{
+        margin-bottom: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .mb-md-#{$i}{
+            margin-bottom: $i * $spacer !important;
+        }
+    }
+    .ml-md{
+        margin-left: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .ml-md-#{$i}{
+            margin-left: $i * $spacer !important;
+        }
+    }
+}
+
+@include breakpoint('lg'){
+    .m-lg{
+        margin: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .m-lg-#{$i}{
+            margin: $i * $spacer !important;
+        }
+    }
+    .my-lg{
+        margin-top: $spacer;
+        margin-bottom: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .my-lg-#{$i}{
+            margin-top: $i * $spacer !important;
+            margin-bottom: $i * $spacer !important;
+        }
+    }
+    .mx-lg{
+        margin-left: $spacer;
+        margin-right: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .mx-lg-#{$i}{
+            margin-left: $i * $spacer !important;
+            margin-right: $i * $spacer !important;
+        }
+    }
+    .mt-lg{
+        margin-top: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .mt-lg-#{$i}{
+            margin-top: $i * $spacer !important;
+        }
+    }
+    .mr-lg{
+        margin-right: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .mr-lg-#{$i}{
+            margin-right: $i * $spacer !important;
+        }
+    }
+    .mb-lg{
+        margin-bottom: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .mb-lg-#{$i}{
+            margin-bottom: $i * $spacer !important;
+        }
+    }
+    .ml-lg{
+        margin-left: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .ml-lg-#{$i}{
+            margin-left: $i * $spacer !important;
+        }
+    }
+}
+
+@include breakpoint('xl'){
+    .m-xl{
+        margin: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .m-xl-#{$i}{
+            margin: $i * $spacer !important;
+        }
+    }
+    .my-xl{
+        margin-top: $spacer;
+        margin-bottom: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .my-xl-#{$i}{
+            margin-top: $i * $spacer !important;
+            margin-bottom: $i * $spacer !important;
+        }
+    }
+    .mx-xl{
+        margin-left: $spacer;
+        margin-right: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .mx-xl-#{$i}{
+            margin-left: $i * $spacer !important;
+            margin-right: $i * $spacer !important;
+        }
+    }
+    .mt-xl{
+        margin-top: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .mt-xl-#{$i}{
+            margin-top: $i * $spacer !important;
+        }
+    }
+    .mr-xl{
+        margin-right: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .mr-xl-#{$i}{
+            margin-right: $i * $spacer !important;
+        }
+    }
+    .mb-xl{
+        margin-bottom: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .mb-xl-#{$i}{
+            margin-bottom: $i * $spacer !important;
+        }
+    }
+    .ml-xl{
+        margin-left: $spacer;
+    }
+    @for $i from 0 to 21 {
+        .ml-xl-#{$i}{
+            margin-left: $i * $spacer !important;
+        }
+    }
+}

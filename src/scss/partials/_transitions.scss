@@ -1,0 +1,51 @@
+
+.transition{
+    transition: $transition-base;
+}
+@for $i from 0 to $transition-count {
+    .transition-#{$i}{
+        transition: $i * $transition-base !important;
+    }
+}
+
+@include breakpoint('sm'){
+    .transition-sm{
+        transition: $transition-base;
+    }
+    @for $i from 0 to $transition-count {
+        .transition-sm-#{$i}{
+            transition: $i * $transition-base !important;
+        }
+    }
+}
+
+@include breakpoint('md'){
+    .transition-md{
+        transition: $transition-base;
+    }
+    @for $i from 0 to $transition-count {
+        .transition-md-#{$i}{
+            transition: $i * $transition-base !important;
+        }
+    }
+}
+@include breakpoint('lg'){
+    .transition-lg{
+        transition: $transition-base;
+    }
+    @for $i from 0 to $transition-count {
+        .transition-lg-#{$i}{
+            transition: $i * $transition-base !important;
+        }
+    }
+}
+@include breakpoint('xl'){
+    .transition-xl{
+        transition: $transition-base;
+    }
+    @for $i from 0 to $transition-count {
+        .transition-xl-#{$i}{
+            transition: $i * $transition-base !important;
+        }
+    }
+}

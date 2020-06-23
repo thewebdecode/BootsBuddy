@@ -1,0 +1,7 @@
+@function fgColor($color){
+    @if (lightness($color) < 50) {
+        @return $white;
+    } @else {
+        @return $dark;
+    }
+}

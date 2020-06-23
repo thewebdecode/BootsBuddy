@@ -1,0 +1,102 @@
+
+.clickable, .pointer, .btn, .pointer > *, .btn > *, .clickable > *{
+    cursor: pointer !important;
+    transition: 0.3s;
+}
+.pointer:active, .btn:active, .clickable:active{
+    transform: translateY($spacer) scale(0.98) !important;
+}
+
+.shadow{
+    box-shadow: 2px 2px 5px 0 rgba($color: #000000, $alpha: 0.2),
+                -0.1px -0.1px 1px 0 rgba($color: #000000, $alpha: 0.2);
+}
+
+
+.bg-fixed {
+    background-attachment: fixed !important;
+}
+
+.bg-center {
+    background-position: center !important;
+}
+
+.bg-cover {
+    background-size: cover !important;
+}
+
+.bg-contain {
+    background-size: contain !important;
+}
+
+.bg-repeat {
+    background-repeat: repeat !important;
+}
+
+.bg-repeat-0,
+.bg-repeat-none {
+    background-repeat: no-repeat !important;
+}
+
+.bg-repeat-x {
+    background-repeat: repeat-x !important;
+}
+
+.bg-repeat-y {
+    background-repeat: repeat-y !important;
+}
+
+.bg-scroll {
+    background-attachment: scroll !important;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.overlay~* {
+    position: relative;
+    z-index: 2;
+}
+
+.hover-zoom-in {
+    transition: 0.3s;
+}
+
+.hover-zoom-in:hover {
+    transform: scale(1.25);
+}
+
+.ripple {
+    border-radius: 50%;
+    background: rgba($white, 0.5);
+    transform: scale(0);
+    position: absolute;
+    opacity: 1;
+}
+.wave-light .ripple{
+    background: rgba($white, $alpha);
+}
+.wave-dark .ripple{
+    background: rgba($dark, $alpha);
+}
+.rippleEffect {
+    animation: rippleDrop .6s linear;
+}
+
+@keyframes rippleDrop {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+        }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
